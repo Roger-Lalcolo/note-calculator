@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://note-calculator-six.vercel.app/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
+  <url><loc>https://note-calculator-six.vercel.app/</loc></url>
+  <url><loc>https://note-calculator-six.vercel.app/moyenne-sur-20</loc></url>
+  <url><loc>https://note-calculator-six.vercel.app/moyenne-sur-6</loc></url>
+  <url><loc>https://note-calculator-six.vercel.app/guide-moyenne-coefficients</loc></url>
 </urlset>
