@@ -1,0 +1,4 @@
+﻿User-agent: *
+Allow: /
+
+Sitemap: https://note-calculator-of-six.vercel.app/sitemap.xml
