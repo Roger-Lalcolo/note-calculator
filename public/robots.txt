@@ -1,4 +1,4 @@
 ﻿User-agent: *
 Allow: /
 
-Sitemap: https://note-calculator-of-six.vercel.app/sitemap.xml
+Sitemap: https://note-calculator-six.vercel.app/sitemap.xml
