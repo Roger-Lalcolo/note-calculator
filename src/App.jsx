@@ -279,9 +279,6 @@ export default function App() {
           </div>
         </div>
 
-        <footer className="text-center text-xs text-gray-500 mt-6">
-          Calculateur local : aucune création de compte requise.
-        </footer>
         <section className="mt-8 bg-gray-800/40 border border-gray-700 rounded-xl p-4 sm:p-6">
   <h2 className="text-lg font-semibold">Questions fréquentes</h2>
 
@@ -327,6 +324,10 @@ export default function App() {
     </details>
   </div>
 </section>
+
+        <footer className="text-center text-xs text-gray-500 mt-6">
+          Calculateur local : aucune création de compte requise.
+        </footer>
       </div>
     </div>
   );
