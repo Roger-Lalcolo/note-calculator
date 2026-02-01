@@ -282,6 +282,51 @@ export default function App() {
         <footer className="text-center text-xs text-gray-500 mt-6">
           Calculateur local : aucune création de compte requise.
         </footer>
+        <section className="mt-8 bg-gray-800/40 border border-gray-700 rounded-xl p-4 sm:p-6">
+  <h2 className="text-lg font-semibold">Questions fréquentes</h2>
+
+  <div className="mt-3 space-y-2 text-sm text-gray-300">
+    <details className="bg-gray-900/30 border border-gray-700 rounded-lg p-3">
+      <summary className="cursor-pointer text-white font-medium">
+        Comment est calculée la moyenne avec coefficients ?
+      </summary>
+      <p className="mt-2 leading-relaxed">
+        La moyenne pondérée se calcule en additionnant chaque note multipliée par son coefficient,
+        puis en divisant par la somme des coefficients : Σ(note × coef) / Σ(coef).
+      </p>
+    </details>
+
+    <details className="bg-gray-900/30 border border-gray-700 rounded-lg p-3">
+      <summary className="cursor-pointer text-white font-medium">
+        Est-ce que l’outil fonctionne pour une notation sur 20, sur 6, ou autre ?
+      </summary>
+      <p className="mt-2 leading-relaxed">
+        Oui. Vous pouvez définir la note maximale (20, 6, etc.). Le calcul de moyenne reste identique,
+        seule l’échelle change. La simulation compare aussi la note requise à la note maximale.
+      </p>
+    </details>
+
+    <details className="bg-gray-900/30 border border-gray-700 rounded-lg p-3">
+      <summary className="cursor-pointer text-white font-medium">
+        À quoi sert la section “Simulation” ?
+      </summary>
+      <p className="mt-2 leading-relaxed">
+        Elle estime la note minimale à obtenir sur une prochaine évaluation (avec son coefficient)
+        pour atteindre une moyenne cible. Si la note requise dépasse la note maximale, l’objectif est
+        considéré comme impossible dans le cadre de l’échelle choisie.
+      </p>
+    </details>
+
+    <details className="bg-gray-900/30 border border-gray-700 rounded-lg p-3">
+      <summary className="cursor-pointer text-white font-medium">
+        Puis-je saisir des décimales avec une virgule ?
+      </summary>
+      <p className="mt-2 leading-relaxed">
+        Oui. Les entrées acceptent la virgule ou le point pour les décimales.
+      </p>
+    </details>
+  </div>
+</section>
       </div>
     </div>
   );
