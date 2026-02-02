@@ -42,7 +42,7 @@ export default function RouterApp() {
     <Routes>
       {/* Page principale : ton app actuelle (on ne la touche pas) */}
       <Route path="/" element={<App />} />
-
+      
       <Route
         path="/moyenne-sur-20"
         element={

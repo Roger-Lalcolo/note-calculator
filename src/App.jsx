@@ -1,4 +1,6 @@
 import { useMemo, useState } from "react";
+import { Link } from "react-router-dom";
+
 
 /** Convertit un input (string) en nombre, en acceptant virgule ou point. */
 function toNumber(value) {
@@ -325,10 +327,37 @@ export default function App() {
   </div>
 </section>
 
+<section className="mt-8 bg-gray-800/40 border border-gray-700 rounded-xl p-4 sm:p-6">
+  <h2 className="text-lg font-semibold">Guides</h2>
+  <p className="mt-2 text-sm text-gray-300">
+    Des pages rapides pour comprendre la moyenne pondérée.
+  </p>
+
+  <ul className="mt-3 space-y-2 text-sm">
+    <li>
+      <Link className="text-blue-400 hover:text-blue-300" to="/moyenne-sur-20">
+        Calcul de moyenne sur 20
+      </Link>
+    </li>
+    <li>
+      <Link className="text-blue-400 hover:text-blue-300" to="/moyenne-sur-6">
+        Calcul de moyenne sur 6
+      </Link>
+    </li>
+    <li>
+      <Link className="text-blue-400 hover:text-blue-300" to="/guide-moyenne-coefficients">
+        Guide : moyenne avec coefficients
+      </Link>
+    </li>
+  </ul>
+</section>
+
+
         <footer className="text-center text-xs text-gray-500 mt-6">
           Calculateur local : aucune création de compte requise.
         </footer>
       </div>
     </div>
+
   );
 }
