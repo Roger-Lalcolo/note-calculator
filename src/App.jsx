@@ -148,6 +148,25 @@ export default function App() {
           </p>
         </header>
 
+        <section className="mt-6 text-gray-300 text-sm leading-relaxed">
+  <p>
+    Ce calculateur de moyenne avec coefficients permet de calculer facilement une moyenne pondérée,
+    utilisée dans de nombreux contextes scolaires et universitaires.
+  </p>
+
+  <p className="mt-2">
+    La moyenne avec coefficients consiste à multiplier chaque note par son coefficient,
+    puis à diviser la somme obtenue par la somme des coefficients.
+  </p>
+
+  <p className="mt-2">
+    Cet outil est adapté aux notations sur 20, sur 6 ou toute autre échelle,
+    et propose également une simulation permettant d’estimer la note nécessaire
+    pour atteindre une moyenne cible.
+  </p>
+</section>
+
+
         <div className="bg-gray-800/60 rounded-xl p-4 sm:p-6 shadow">
           <div className="flex items-center justify-between gap-3 mb-4">
             <h2 className="text-lg font-semibold">Notes</h2>
